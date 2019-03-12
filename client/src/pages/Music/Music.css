@@ -1,0 +1,12 @@
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px
+}
+
+.card {
+    background-image: url(./images/interlaced.png) rgba(255, 255, 255, 0.267);
+}
+
+.rosCard {
+background-color:rgba(0, 0, 0, 0.315);
+}
