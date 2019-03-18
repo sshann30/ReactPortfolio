@@ -21,12 +21,15 @@ class Footer extends Component {
 
 
         <footer>
-
+          <br></br>
+          <br></br>
           <div className="centered clearfix">
             <Link className='nav-link' to='/' onClick={this.toggleCollapse}><i className="fas fa-home"></i> Home</Link>
-            <div className="footer-links-holder">
+           
+              <Link className='nav-link' to='/resume' onClick={this.toggleCollapse}><i class="far fa-address-card"></i> Resume   </Link>
+            
               <Link className='nav-link' to='/coding' onClick={this.toggleCollapse}><i className="fas fa-code"></i> Coding</Link>
-            </div>
+            
             <div className="footer-links-holder">
               <Link className='nav-link' to='/music' onClick={this.toggleCollapse}><i className="fas fa-music"></i> Music</Link>
             </div>
@@ -54,23 +57,13 @@ class Footer extends Component {
             </div>
 
           </div>
-
+          <br></br>
 
 
           <div className="bottom-bar">
             Steve Shannon © 2019
           </div>
         </footer>
-
-
-
-
-
-
-
-
-
-
 
 
       </>

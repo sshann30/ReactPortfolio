@@ -6,12 +6,12 @@ import TokenStore from '../../lib/TokenStore';
 import AuthContext from '../../contexts/AuthContext';
 import Navigation from '../../components/Navigation/Navigation';
 import PrivateRoute from '../../components/PrivateRoute/PrivateRoute';
-import Login from '../../pages/Login/Login';
+
 import Register from '../../pages/Register/Register';
 import Secret from '../../pages/Secret/Secret';
 import Home from '../../pages/Home/Home';
 import Coding from '../../pages/Coding/Coding';
-import MessageBoard from '../../pages/MessageBoard/MessageBoard';
+import Resume from '../../pages/Resume/Resume';
 import Music from '../../pages/Music/Music';
 import NotFound from '../../pages/NotFound/NotFound';
 import Footer from '../Footer/Footer';
@@ -77,10 +77,10 @@ class App extends Component {
                 <PrivateRoute path='/secret' component={Secret} />
                 <Route exact path='/' component={Home} />
                 <PrivateRoute exact path='/home' component={Home} />
-                <Route exact path='/login' component={Login} />
                 <PrivateRoute exact path='/coding' component={Coding} />
                 <PrivateRoute exact path='/music' component={Music} />
-                <PrivateRoute exact path='/messageboard' component={MessageBoard} />
+                
+                <PrivateRoute exact path='/resume' component={Resume} />
                 <Route component={NotFound} />
               </Switch>
             </div>

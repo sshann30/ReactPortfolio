@@ -36,27 +36,34 @@ class Navigation extends Component {
           <div className={targetClass} id='navbarSupportedContent'>
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item'>
-                <Link className='nav-link'  to='/' onClick={this.toggleCollapse}><i className="fas fa-home"></i> Home</Link>
+              <div className="row">
+              <div className="col md-3">
+                <h4></h4>
+              </div>
+                <Link className='nav-link'  to='/' onClick={this.toggleCollapse}><i className="fas fa-home"></i> Home   </Link>
+                <div className="col md-3">
+                <h4></h4>
+              </div>
+                <Link className='nav-link' to='/resume' onClick={this.toggleCollapse}><i class="far fa-address-card"></i> Resume   </Link>
+                <div className="col md-3">
+                <h4></h4>
+              </div>
+                <Link className='nav-link' to='/coding' onClick={this.toggleCollapse}><i className="fas fa-code"></i> Coding   </Link>
+                <div className="col md-3">
+                <h4></h4>
+              </div>
+                <Link className='nav-link' to='/music' onClick={this.toggleCollapse}><i className="fas fa-music"></i> Music   </Link>
+                <div className="col md-3">
+                <h4></h4>
+              </div>
+                </div>
               </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/coding' onClick={this.toggleCollapse}><i className="fas fa-code"></i> Coding</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/music' onClick={this.toggleCollapse}><i className="fas fa-music"></i> Music</Link>
-              </li>
+              
              
-              {user &&
-                <li className='nav-item'>
-                  <Link className='nav-link' to='/secret' onClick={this.toggleCollapse}>Secret</Link>
-                </li>}
+              
             </ul>
             <ul className='navbar-nav'>
-              {user
-                ? <AuthDropdown onClick={this.toggleCollapse} />
-                : <>
-                  {/* <li className='nav-item'><Link className='nav-link' to='/login' onClick={this.toggleCollapse}>Login</Link></li>
-                  <li className='nav-item'><Link className='nav-link' to='/register' onClick={this.toggleCollapse}>Register</Link></li> */}
-                </>}
+              
             </ul>
           </div>
         </nav>
