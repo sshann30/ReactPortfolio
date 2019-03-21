@@ -37,28 +37,17 @@ class Navigation extends Component {
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item'>
               <div className="row">
-              <div className="col md-3">
-                <h4></h4>
-              </div>
+              <hr></hr>
                 <Link className='nav-link'  to='/' onClick={this.toggleCollapse}><i className="fas fa-home"></i> Home   </Link>
-                <div className="col md-3">
-                <h4></h4>
-              </div>
+                <hr></hr>
                 <Link className='nav-link' to='/resume' onClick={this.toggleCollapse}><i class="far fa-address-card"></i> Resume   </Link>
-                <div className="col md-3">
-                <h4></h4>
-              </div>
+                <hr></hr>
                 <Link className='nav-link' to='/coding' onClick={this.toggleCollapse}><i className="fas fa-code"></i> Coding   </Link>
-                <div className="col md-3">
-                <h4></h4>
-              </div>
+                <hr></hr>
                 <Link className='nav-link' to='/music' onClick={this.toggleCollapse}><i className="fas fa-music"></i> Music   </Link>
-                <div className="col md-3">
-                <h4></h4>
-              </div>
+                <hr></hr>
                 </div>
               </li>
-              
              
               
             </ul>
