@@ -5,7 +5,6 @@ import API from '../../lib/API';
 import TokenStore from '../../lib/TokenStore';
 import AuthContext from '../../contexts/AuthContext';
 import Navigation from '../../components/Navigation/Navigation';
-import PrivateRoute from '../../components/PrivateRoute/PrivateRoute';
 
 import Register from '../../pages/Register/Register';
 import Secret from '../../pages/Secret/Secret';
@@ -74,13 +73,13 @@ class App extends Component {
             <div className='container'>
               <Switch>
                 <Route path='/register' component={Register} />
-                <PrivateRoute path='/secret' component={Secret} />
+                <Route path='/secret' component={Secret} />
                 <Route exact path='/' component={Home} />
-                <PrivateRoute exact path='/home' component={Home} />
-                <PrivateRoute exact path='/coding' component={Coding} />
-                <PrivateRoute exact path='/music' component={Music} />
+                <Route exact path='/home' component={Home} />
+                <Route exact path='/coding' component={Coding} />
+                <Route exact path='/music' component={Music} />
                 
-                <PrivateRoute exact path='/resume' component={Resume} />
+                <Route exact path='/resume' component={Resume} />
                 <Route component={NotFound} />
               </Switch>
             </div>
