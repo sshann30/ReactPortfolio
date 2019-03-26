@@ -48,6 +48,9 @@ class HomePage extends Component {
 
         {/* this is the markup. you can change the details (your own name, your own avatar etc.) but don’t change the basic structure! */}
 
+<br></br>
+<br></br>
+<br></br>
 
 
 <div className="container">
@@ -88,13 +91,13 @@ class HomePage extends Component {
           </ul> */}
           
         </aside>
-        <br></br>
-        <br></br>
+        
 
+        <div className="container">
         </div>
 
-        <br></br>
-        <br></br>
+        </div>
+        
       </>
     );
   }
