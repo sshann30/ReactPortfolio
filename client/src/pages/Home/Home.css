@@ -1,5 +1,13 @@
 Global
 
+.jumbotron{
+  top: 700px;
+  background-image: url(./brushed_alu.png);
+
+
+}
+
+
 .container{
   margin-bottom: 25px;
 }
@@ -80,141 +88,3 @@ h2 {
 
 
 
-
-
-
-
-  .profile-bio p a {
-    color: #fff;
-  }
-  
-  svg {
-    stroke: #000000;
-    stroke-width: 3;
-  }
-  
-  header img {
-    width: 180px;
-    margin-top: 25px;
-  }
-  
-  header {
-    text-align: center;
-    transition: box-shadow 1s;
-  }
-  
-  header h2 {
-    font-family: 'Slabo 27px', serif;
-    font-size: 1.2em;
-  }
-  
-  header h1 {
-    font-weight: 300;
-    font-size: 2em;
-  }
-  
-  .profile-bio p {
-    padding: 15px;
-    font-weight: 300;
-    line-height: 1.5em;
-  }
-  
-  .profile-social-links {
-    transform: rotateY( 90deg) translateZ( 134px);
-    width: 265px;
-    height: 68px;
-    background: rgb(255, 255, 255);
-    margin-top: -0px;
-    z-index: 0;
-     -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-  -moz-box-shadow:    1px 3px 20px #e7e7e7;
-  box-shadow:         1px 3px 20px #e7e7e7;
-    padding-left: 10;
-  }
-  
-  ul.profile-social-links {
-    list-style: none;
-    -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-    -moz-box-shadow:    1px 3px 20px #e7e7e7;
-    box-shadow:         1px 3px 20px #e7e7e7;
-  }
-  
-  ul.profile-social-links li {
-    float: center;
-    width: 33.33%;
-    text-align: center;
-    padding: 7px 0 7px 0;
-  }
-  
-  ul.profile-social-links li a {
-      height:10px;
-      padding: 41px 19px 7px 19px;
-  }
-  
-  ul.profile-social-links li a:hover {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  ul.profile-social-links li img {
-    width: 50px;
-  }
-  /*====== 3D STUFF =======*/
-  
-  .profile-card {
-    bottom: 81vh;
-    margin-top: -175px;
-    left: 50vw;
-    margin-left: -132px;
-    width: 265px;
-    height: 100px;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 1s;
-    transform: translateZ( -800px);
-  }
-  
-  .profile-card:hover {
-    transform: translateZ( -170px) rotateY( -90deg);
-  }
-  
-  header {
-    transform: translateZ( 132px);
-    width: 265px;
-    height: 350px;
-    background-image: url(./brushed_alu.png);
-    border-radius: 3px;
-    position: relative;
-    z-index: 0;
-    -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-    -moz-box-shadow:    1px 3px 20px #e7e7e7;
-    box-shadow:         1px 3px 20px #e7e7e7;
-    transition: box-shadow 1s;
-  }
-  
-  .profile-bio {
-    transform: rotateY( 90deg) translateZ( 132px);
-    width: 265px;
-    height: 350px;
-    background-image: url(./brushed_alu.png);
-    border-radius: 3px;
-    position: relative;
-    top: -350px;
-    z-index: 0;
-    -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-  -moz-box-shadow:    1px 3px 20px #e7e7e7;
-  box-shadow:         1px 3px 20px #e7e7e7;
-    
-    
-  }
-  
-  .profile-card:hover > header {
-    -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-  -moz-box-shadow:    1px 3px 20px #e7e7e7;
-  box-shadow:         1px 3px 20px #e7e7e7;
-  }
-  
-  .profile-card:hover > .profile-bio {
-    -webkit-box-shadow: 1px 3px 20px #e7e7e7;
-    -moz-box-shadow:    1px 3px 20px #e7e7e7;
-    box-shadow:         1px 3px 20px #e7e7e7;
-  }

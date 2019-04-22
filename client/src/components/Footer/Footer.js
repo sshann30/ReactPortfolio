@@ -21,8 +21,7 @@ class Footer extends Component {
 
 
         <footer>
-          <br></br>
-          <br></br>
+          
           <div className="centered clearfix">
             <Link className='nav-link' to='/' onClick={this.toggleCollapse}><i className="fas fa-home"></i> Home</Link>
            
