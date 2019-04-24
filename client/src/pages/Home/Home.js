@@ -13,13 +13,14 @@ class HomePage extends Component {
         <div className='Home'>
           <div className="container homeCont">
             <h1 className="mainTitle">Steve Shannon</h1>
-            <h2 className="about">Steve is an academic scholar and graduate of the </h2>
+            <h2 className="about">I am an academic scholar and has a bachelors in</h2>
+            <h2>Exercise Science</h2>
             <h2>University of South Carolina</h2>
             <br></br>
-            <h2 className="about">Steve recently earned certification from </h2>
+            <h2 className="about">I recently earned certification from </h2>
             <h2>UNC Charlotte's Full Stack Coding Bootcamp</h2>
             <br></br>
-            <h2 className="about">Steve is skilled at building solutions for a variety of Web Development problems. </h2>
+            <h2 className="about">Skilled at building solutions for a variety of Web Development problems. </h2>
 
             <hr></hr>
      

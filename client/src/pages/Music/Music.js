@@ -12,8 +12,8 @@ class Music extends Component {
         <div className='Music'>
           <div className="container musicCont">
             <h1 className="mainTitle">Music</h1>
-            <h3 className="about">Music has always played a role in Steve's life. He is an accomplished percussionist and DJ.</h3>
-            <h2 className="about">Steve is currently in a partnership with ATG Entertainment</h2>
+            <h3 className="about">Music has always played a role in my life. I'm an accomplished percussionist and DJ.</h3>
+            <h2 className="about">Currently in a partnership with ATG Entertainment</h2>
             <hr></hr>
             <div className="container">
               

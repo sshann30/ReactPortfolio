@@ -19,8 +19,8 @@ class Coding extends Component {
         <div className='Coding'>
           <div className="container CodingCont">
             <h1 className="mainTitle">Coding</h1>
-            <h3 className="about">Steve recently graduated from the UNC Charlotte Stack Coding Bootcamp</h3>
-            <h3 className="about">Here is some of his work (newest to oldest)</h3>
+            <h3 className="about">I recently graduated from the UNC Charlotte Stack Coding Bootcamp</h3>
+            <h3 className="about">Here is some of my work (newest to oldest)</h3>
 
             <hr></hr>
             <div className="container">
