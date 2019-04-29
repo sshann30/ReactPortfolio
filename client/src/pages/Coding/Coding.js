@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Coding/Coding.css";
+import Shirt from "../Coding/shirt.png"
 import Omega from "../Coding/omega.png";
 import Art from "../Coding/art.png";
 import Giphy from "../Coding/giphyresume.png";
@@ -24,6 +25,19 @@ class Coding extends Component {
 
             <hr></hr>
             <div className="container">
+
+            <div className="col md-3">
+                <h3>Merch Site</h3>
+                <a href="https://github.com/sshann30/Band-T-shirts">Github Link</a>
+                
+                <a href="https://powerful-journey-20024.herokuapp.com/">         Deployed Link</a>
+                <br></br>
+                <img className="projectPic" src={Shirt} alt="Ωmega Chat" />
+
+              </div>
+
+              <br></br>
+              <br></br>
 
               <div className="col md-3">
                 <h3>Ωmega Chat (Project 3)</h3>
