@@ -7,6 +7,7 @@ import Giphy from "../Coding/giphyresume.png";
 import Trivia from "../Coding/Trivia.png";
 import Shady from "../Coding/Shady.png";
 import Train from "../Coding/Train.png";
+import { Link } from 'react-router-dom';
 
 // import { Card, CardTitle, CardText, CardActions, CardMenu } from 'react-mdl';
 
@@ -22,15 +23,23 @@ class Coding extends Component {
             <h1 className="mainTitle">Coding</h1>
             <h3 className="about">I recently graduated from the UNC Charlotte Stack Coding Bootcamp</h3>
             <h3 className="about">Here is some of my work (newest to oldest)</h3>
+            <h3 className="about">I'm also experimenting in <Link className='nav-link' to='/' onClick={this.toggleCollapse}><a href="http://steveistall.com/">Wordpress  </a></Link></h3>
+
 
             <hr></hr>
             <div className="container">
 
-            <div className="col md-3">
+            <div className="col md-6">
                 <h3>Merch Site</h3>
+
+                {/* <Link className='nav-link' to='/' onClick={this.toggleCollapse}><a href="https://github.com/sshann30/Band-T-shirts">Github Link   </a></Link>
+  
+                <Link className='nav-link' to='/' onClick={this.toggleCollapse}><a href="https://powerful-journey-20024.herokuapp.com/">         Deployed Link</a></Link> */}
+
                 <a href="https://github.com/sshann30/Band-T-shirts">Github Link</a>
                 
                 <a href="https://powerful-journey-20024.herokuapp.com/">         Deployed Link</a>
+                
                 <br></br>
                 <img className="projectPic" src={Shirt} alt="Ωmega Chat" />
 
@@ -39,7 +48,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Ωmega Chat (Project 3)</h3>
                 <a href="https://github.com/mspenski/Omega-Chat">Github Link</a>
                 
@@ -52,7 +61,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Shady Servers (Project 2)</h3>
                 <a href="https://github.com/sshann30/Project2RoughStart">Github Link</a>
                 <a href="https://salty-caverns-51624.herokuapp.com/">         Deployed Link</a>
@@ -64,7 +73,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Arti-Sense (Project 1)</h3>
                 <a href="https://github.com/sshann30/FirstProject">Github Link</a>
                 <a href="https://sshann30.github.io/FirstProject/">         Deployed Link</a>
@@ -77,7 +86,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Train Scheduler</h3>
                 <a href="https://github.com/sshann30/Firebase-Assignment---Train-Scheduler">Github Link</a>
                 <a href="https://sshann30.github.io/Firebase-Assignment---Train-Scheduler/">         Deployed Link</a>
@@ -89,7 +98,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Trivia Game</h3>
                 <a href="https://github.com/sshann30/TriviaGame">Github Link</a>
                 <a href="https://sshann30.github.io/TriviaGame/">         Deployed Link</a>
@@ -101,7 +110,7 @@ class Coding extends Component {
               <br></br>
               <br></br>
 
-              <div className="col md-3">
+              <div className="col md-6">
                 <h3>Giphy Search</h3>
                 <a href="https://github.com/sshann30/GifTastic">Github Link</a>
                 <a href="https://sshann30.github.io/GifTastic/">         Deployed Link</a>
